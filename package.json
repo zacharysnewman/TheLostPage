@@ -1,0 +1,24 @@
+{
+  "name": "csvparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "jest",
+    "debug": "ts-node-dev --respawn source/main.ts",
+    "start": "ts-node source/main.ts",
+    "push": "git add . && git commit && git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.22",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.51",
+    "typescript": "^3.9.6"
+  }
+}
