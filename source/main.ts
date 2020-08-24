@@ -19,6 +19,4 @@ Upgrades:
 - Automatic Elevator
 */
 
-describe("Level Display", () => {
-  test("");
-});
+
